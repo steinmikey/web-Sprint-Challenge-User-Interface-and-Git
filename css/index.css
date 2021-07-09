@@ -30,7 +30,6 @@ header {
 }
 .nav-bar {
   display: flex;
-  align-items: ;
   margin: 20px 0%;
 }
 .nav-bar img {
@@ -46,7 +45,6 @@ header .nav-bar nav {
   margin-bottom: 0;
   font-size: 14px;
 }
-
 header .nav-bar nav a {
   text-decoration: none;
   color: black;
@@ -142,26 +140,33 @@ header .nav-bar nav a {
   width: 100%;
   padding: 0 2%;
   padding-bottom: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   border-bottom: 1px dashed black;
 }
-.row-container {
-  display: flex;
 
+.learnmore-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 50px;
 }
-.column-container {
-  width: 370px;
+.learn-subcontainer {
+  width: 46%;
   padding: 0 0 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   border-bottom: 1px dashed black;
-  margin-bottom: 0;
+  margin: 30px 0;
 }
-.column-container a {
+.learn-subcontainer img {
+  box-sizing: content-box;
+  width: 100%;
+}
+.learn-subcontainer h2 {
+  margin-top: 15px;
+}
+.learn-subcontainer a {
   text-decoration: none;
   color: black;
   padding: 10px 22px;
@@ -169,13 +174,11 @@ header .nav-bar nav a {
   border-radius: 10px;
   margin-top: 20px;
 }
-.column-container h2 {
-  margin-top: 15px;
-}
+
 .summary {
   width: 100%;
   padding: 0 2%;
-  margin-bottom: 40px;
+  margin: 20px 0 40px;
 }
 
 footer {
