@@ -147,13 +147,14 @@ header .nav-bar nav a {
 }
 .row-container {
   display: flex;
+
   justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 50px;
 }
 .column-container {
-  width: 48%;
-  padding: 0px 1% 20px;
+  width: 370px;
+  padding: 0 0 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
