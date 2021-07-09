@@ -81,10 +81,41 @@ header .nav-bar nav a {
   justify-content: space-evenly;
 }
 
+.teal-color {
+  background: teal;
+}
+.gold-color {
+  background: gold;
+}
+.cadetblue-color {
+  background: cadetblue;
+}
+.coral-color {
+  background: coral;
+}
+.crimson-color {
+  background: crimson;
+}
+.forestgreen-color {
+  background: forestgreen;
+}
+.darkorchid-color {
+  background: darkorchid;
+}
+.hotpink-color {
+  background: hotpink;
+}
+.indigo-color {
+  background: indigo;
+}
+.dodgerblue-color {
+  background: dodgerblue;
+}
+
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  background: ;
   margin: 20px 2.5%;
   color: white;
   display: flex;
