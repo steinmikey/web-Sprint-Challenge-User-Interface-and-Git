@@ -23,6 +23,34 @@ p {
   margin: 0 auto;
 }
 
+header {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.nav-bar {
+  display: flex;
+  align-items: ;
+  margin: 20px 0%;
+}
+.nav-bar img {
+  position: relative;
+  bottom: 6px;
+  height: 40px;
+}
+header .nav-bar nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+header .nav-bar nav a {
+  text-decoration: none;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;
