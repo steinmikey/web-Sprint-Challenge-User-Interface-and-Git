@@ -49,6 +49,7 @@ header .nav-bar nav {
 
 header .nav-bar nav a {
   text-decoration: none;
+  color: black;
 }
 
 .top-content {
